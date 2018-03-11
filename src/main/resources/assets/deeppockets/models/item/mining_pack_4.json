@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "miningpack:items/advancedpack2"
+        "layer0": "deeppockets:items/mining_pack_4"
     }
 }

@@ -1,14 +1,14 @@
 [
 {
   "modid": "deeppockets",
-  "name": "Deep Pockets",
+  "name": "Deeper Pockets",
   "description": "Making mining easier.",
-  "version": "1.0.0",
-  "mcversion": "1.11",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["RebelKeithy"],
-  "credits": "RebelKeithy",
+  "authorList": [ "RebelKeithy", "TehNut" ],
+  "credits": "RebelKeithy for the original mod.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

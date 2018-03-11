@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "deeppockets:mining_pack_advanced"
+  },
+  "ingredients": [
+    {
+      "item": "deeppockets:mining_pack_advanced"
+    }
+  ]
+}

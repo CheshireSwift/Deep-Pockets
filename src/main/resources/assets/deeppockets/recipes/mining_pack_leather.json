@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "deeppockets:mining_pack"
+  },
+  "pattern": [
+    "LGL",
+    "ICI",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "#LEATHER"
+    },
+    "C": {
+      "item": "#CHEST"
+    },
+    "I": {
+      "item": "#IRON_INGOT"
+    },
+    "G": {
+      "item": "#GOLD_INGOT"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "deeppockets:mining_pack"
+  },
+  "pattern": [
+    "WGW",
+    "ICI",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wool",
+      "data": 32767
+    },
+    "C": {
+      "item": "#CHEST"
+    },
+    "I": {
+      "item": "#IRON_INGOT"
+    },
+    "G": {
+      "item": "#GOLD_INGOT"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "deeppockets:mining_pack_advanced"
+  },
+  "pattern": [
+    "EPE",
+    "P P",
+    "EPE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "deeppockets:mining_pack"
+    }
+  }
+}
