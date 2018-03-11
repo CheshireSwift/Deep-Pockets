@@ -76,7 +76,7 @@ public class ItemMiningPack extends Item {
         for (String ore : ores.getKeySet()) {
             int amount = ores.getCompoundTag(ore).getInteger("amount");
             String name = ores.getCompoundTag(ore).getString("name");
-            String prefix = "prefix.deeppockets." + PREFIX.ceilingEntry(amount).getValue();
+            String prefix = "prefix.deeppockets." + PREFIX.ceilingEntry(Math.min(amount, 1024)).getValue();
 
             String lock = "";
             if (ores.getCompoundTag(ore).getBoolean("lock"))
@@ -208,7 +208,7 @@ public class ItemMiningPack extends Item {
                 inventory.setStackInSlot(index, stack.copy());
                 ore.amount -= amount;
             } else if (ItemHandlerHelper.canItemStacksStack(slotStack, stack)) {
-                int amountToTransfer = Math.min(amount, 64 - slotStack.getCount());
+                int amountToTransfer = Math.min(amount, inventory.getSlotLimit(index) - slotStack.getCount());
                 ItemStack toTransfer = stack.splitStack(amountToTransfer);
 
                 int fullAmount = toTransfer.getCount() + slotStack.getCount();
