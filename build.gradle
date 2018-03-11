@@ -125,7 +125,7 @@ String getChangelogText() {
 }
 
 curseforge {
-    if (project.hasProperty('curse_key'))
+    if (project.hasProperty('curse_key_TehNut'))
         apiKey = project.curse_key
 
     project {
